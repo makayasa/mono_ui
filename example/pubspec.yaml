@@ -1,0 +1,19 @@
+name: mono_ui_example
+description: Component gallery for Mono UI.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mono_ui:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
